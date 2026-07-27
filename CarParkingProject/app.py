@@ -7,9 +7,6 @@ import os
 from ultralytics import YOLO
 
 
-# =========================
-# Page Setup
-# =========================
 
 st.set_page_config(
     page_title="Smart Parking AI",
@@ -76,7 +73,7 @@ st.markdown(
 )
 
 
-# =========================
+
 # Load Model
 # =========================
 
@@ -91,7 +88,7 @@ def load_model():
 model = load_model()
 
 
-# =========================
+
 # Header
 # =========================
 
@@ -105,8 +102,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
-# =========================
 # Sidebar — Configuration
 # =========================
 
@@ -141,7 +136,6 @@ with st.sidebar:
     st.caption("Upload a parking-lot video below to begin analysis.")
 
 
-# =========================
 # Upload
 # =========================
 
@@ -161,7 +155,7 @@ if not uploaded_video:
     st.info("👆 Upload a parking video (MP4, AVI, or MOV) to start detection.")
 
 
-# =========================
+
 # Video Processing
 # =========================
 
@@ -211,7 +205,6 @@ if uploaded_video:
 
         frame_index += 1
 
-        # =====================
         # YOLO Prediction
         # =====================
         results = model(frame, conf=confidence, verbose=False)
@@ -219,7 +212,7 @@ if uploaded_video:
         free_count = 0
         occupied_count = 0
 
-        # =====================
+ 
         # Detection Drawing
         # =====================
         for box in results[0].boxes:
@@ -307,7 +300,7 @@ if uploaded_video:
         total_slots = free_count + occupied_count
         occupancy = (occupied_count / total_slots * 100) if total_slots else 0
 
-        # =====================
+
         # Streamlit Display
         # =====================
         frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -332,4 +325,4 @@ if uploaded_video:
         '<span class="status-pill status-done">● Completed</span>',
         unsafe_allow_html=True,
     )
-    st.success("✅ Processing completed successfully")
+    st.success("Processing completed successfully")
