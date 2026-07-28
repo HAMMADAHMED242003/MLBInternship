@@ -7,6 +7,8 @@ import os
 from ultralytics import YOLO
 
 
+# Page Setup
+# =========================
 
 st.set_page_config(
     page_title="Smart Parking AI",
@@ -122,7 +124,7 @@ with st.sidebar:
     show_boxes = st.checkbox("Show bounding boxes", value=True)
     label_style = st.radio(
         "Slot labels",
-        options=["Auto (fit to slot)", "Color only (no text)"],
+        options=["Color only (no text)"],
         index=0,
         help="Use 'Color only' for dense lots where text would overlap between narrow slots.",
     )
