@@ -154,6 +154,9 @@ while True:
         cv2.waitKey(0)
         cv2.destroyAllWindows()
 
+        # cv2.rectangle(image, (top left corner), (bottom right corner), (0,255,0), 3)
+        # cv2.circle(image, (center), radius, (255,0,0), 3)
+        # cv2.line(image, (starting point), (ending point), (0,0,255), 3)
 
     # Draw Shapes
     elif choice == "7":
@@ -174,7 +177,15 @@ while True:
         cv2.waitKey(0)
         cv2.destroyAllWindows()
 
-
+# cv2.putText(
+#     image,
+#     text,
+#     position,
+#     font,
+#     fontScale,
+#     color,
+#     thickness
+# )
     # Add Text
     elif choice == "8":
 
