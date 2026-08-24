@@ -1,0 +1,42 @@
+[
+  {
+    "image": "Cars258.jpg",
+    "vehicle_class": "car",
+    "plate_crop_path": "Output\\crops\\Cars258.jpg_0.jpg",
+    "plate_text": "KA01AC5957",
+    "confidence": 0.916,
+    "timestamp": "2026-08-24T22:24:11.860287"
+  },
+  {
+    "image": "Cars422.png",
+    "vehicle_class": "car",
+    "plate_crop_path": "Output\\crops\\Cars422.png_0.jpg",
+    "plate_text": "MH20EE7596",
+    "confidence": 0.972,
+    "timestamp": "2026-08-24T22:24:14.105961"
+  },
+  {
+    "image": "dataset-card.jpg",
+    "vehicle_class": "car",
+    "plate_crop_path": "Output\\crops\\dataset-card.jpg_0.jpg",
+    "plate_text": "LA020749",
+    "confidence": 0.978,
+    "timestamp": "2026-08-24T22:24:17.531524"
+  },
+  {
+    "image": "images.jpg",
+    "vehicle_class": "car",
+    "plate_crop_path": "Output\\crops\\images.jpg_0.jpg",
+    "plate_text": "AP29AN0074",
+    "confidence": 0.985,
+    "timestamp": "2026-08-24T22:24:19.341327"
+  },
+  {
+    "image": "Pic1.jpg",
+    "vehicle_class": "car",
+    "plate_crop_path": "Output\\crops\\Pic1.jpg_0.jpg",
+    "plate_text": "DS08PCZ",
+    "confidence": 0.96,
+    "timestamp": "2026-08-24T22:24:20.907855"
+  }
+]

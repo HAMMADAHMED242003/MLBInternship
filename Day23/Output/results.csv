@@ -1,0 +1,6 @@
+image,vehicle_class,plate_crop_path,plate_text,confidence,timestamp
+Cars258.jpg,car,Output\crops\Cars258.jpg_0.jpg,KA01AC5957,0.916,2026-08-24T22:24:11.860287
+Cars422.png,car,Output\crops\Cars422.png_0.jpg,MH20EE7596,0.972,2026-08-24T22:24:14.105961
+dataset-card.jpg,car,Output\crops\dataset-card.jpg_0.jpg,LA020749,0.978,2026-08-24T22:24:17.531524
+images.jpg,car,Output\crops\images.jpg_0.jpg,AP29AN0074,0.985,2026-08-24T22:24:19.341327
+Pic1.jpg,car,Output\crops\Pic1.jpg_0.jpg,DS08PCZ,0.96,2026-08-24T22:24:20.907855
