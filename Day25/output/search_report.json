@@ -1,12 +1,19 @@
 {
   "images_dir": "images",
-  "num_images": 26,
+  "num_images": 42,
   "blip_model": "Salesforce/blip-image-captioning-base",
   "clip_model": "openai/clip-vit-base-patch32",
   "captions": {
     "cooking.jpg": "a chef is holding a pan with meat",
-    "n02099601_golden_retriever.JPEG": "a dog running in the grass",
-    "n02123045_tabby.JPEG": "a cat with green eyes",
+    "cooking1.jpg": "a man in the kitchen preparing food",
+    "cooking2.jpg": "a man in an apron preparing food on a counter",
+    "cooking3.jpg": "a man cooking pasta in a kitchen",
+    "cooking4.jpg": "a woman cooking in a kitchen",
+    "cooking5.jpg": "a woman cooking in a kitchen",
+    "food.jpg": "a hamburger and french fries are on a tray",
+    "food3.jpg": "a hamburger and fries are on a table",
+    "food4.jpg": "a table with many different types of food",
+    "food5.jpg": "two bowls filled with chicken and vegetables",
     "n02129165_lion.JPEG": "a lion walking across a dirt road",
     "n02391049_zebra.JPEG": "a zebra standing in a rocky area",
     "n02504013_Indian_elephant.JPEG": "the elephants are gray",
@@ -28,8 +35,17 @@
     "n09332890_lakeside.JPEG": "a tree on the beach",
     "n09428293_seashore.JPEG": "a body of water",
     "n09472597_volcano.JPEG": "a pile of lava",
-    "wild animal.jpg": "a tiger laying down on the ground",
-    "wild.jpg": "a mother elephant and her baby elephant"
+    "nature2.jpg": "a mountain landscape with clouds and mountains in the background",
+    "nature3.jpg": "a dirt road in the woods with sun shining through the trees",
+    "nature4.jpg": "a mountain lake with a train passing by",
+    "redcar1.jpg": "a red car with a white background",
+    "redcar2.jpg": "ferrari car parked on the beach",
+    "redcar3.jpg": "a red sports car driving on a track",
+    "wild.jpg": "a mother elephant and her baby elephant",
+    "wild2.jpg": "a tiger in the water",
+    "wild3.jpg": "elephants in the wild",
+    "wild5.jpg": "a lion laying on a rock",
+    "wild6.jpg": "a lion in the tall grass"
   },
   "queries": {
     "a red car": [
@@ -47,53 +63,53 @@
       },
       {
         "rank": 3,
-        "image": "n04285008_sports_car.JPEG",
-        "similarity": 0.2505,
-        "caption": "a red car with a white top and black wheels"
+        "image": "redcar2.jpg",
+        "similarity": 0.272,
+        "caption": "ferrari car parked on the beach"
       },
       {
         "rank": 4,
-        "image": "n04507155_umbrella.JPEG",
-        "similarity": 0.2391,
-        "caption": "a person holding an umbrella"
+        "image": "redcar3.jpg",
+        "similarity": 0.2596,
+        "caption": "a red sports car driving on a track"
       },
       {
         "rank": 5,
-        "image": "n02930766_cab.JPEG",
-        "similarity": 0.2303,
-        "caption": "a lot of yellow cabs"
+        "image": "redcar1.jpg",
+        "similarity": 0.2574,
+        "caption": "a red car with a white background"
       }
     ],
     "someone cooking": [
       {
         "rank": 1,
+        "image": "cooking4.jpg",
+        "similarity": 0.2888,
+        "caption": "a woman cooking in a kitchen"
+      },
+      {
+        "rank": 2,
         "image": "cooking.jpg",
         "similarity": 0.2884,
         "caption": "a chef is holding a pan with meat"
       },
       {
-        "rank": 2,
-        "image": "n07583066_guacamole.JPEG",
-        "similarity": 0.2449,
-        "caption": "a yellow bowl"
-      },
-      {
         "rank": 3,
-        "image": "n03400231_frying_pan.JPEG",
-        "similarity": 0.2385,
-        "caption": "a pan of food"
+        "image": "cooking3.jpg",
+        "similarity": 0.2853,
+        "caption": "a man cooking pasta in a kitchen"
       },
       {
         "rank": 4,
-        "image": "n02099601_golden_retriever.JPEG",
-        "similarity": 0.2124,
-        "caption": "a dog running in the grass"
+        "image": "cooking2.jpg",
+        "similarity": 0.2783,
+        "caption": "a man in an apron preparing food on a counter"
       },
       {
         "rank": 5,
-        "image": "n09472597_volcano.JPEG",
-        "similarity": 0.2099,
-        "caption": "a pile of lava"
+        "image": "cooking1.jpg",
+        "similarity": 0.2691,
+        "caption": "a man in the kitchen preparing food"
       }
     ],
     "something to eat": [
@@ -105,15 +121,15 @@
       },
       {
         "rank": 2,
-        "image": "n07697313_cheeseburger.JPEG",
-        "similarity": 0.2522,
-        "caption": "a hamburger on a plate"
+        "image": "food3.jpg",
+        "similarity": 0.2542,
+        "caption": "a hamburger and fries are on a table"
       },
       {
         "rank": 3,
-        "image": "wild animal.jpg",
-        "similarity": 0.2507,
-        "caption": "a tiger laying down on the ground"
+        "image": "n07697313_cheeseburger.JPEG",
+        "similarity": 0.2522,
+        "caption": "a hamburger on a plate"
       },
       {
         "rank": 4,
@@ -123,9 +139,9 @@
       },
       {
         "rank": 5,
-        "image": "n03400231_frying_pan.JPEG",
-        "similarity": 0.2431,
-        "caption": "a pan of food"
+        "image": "food4.jpg",
+        "similarity": 0.2484,
+        "caption": "a table with many different types of food"
       }
     ],
     "a peaceful scene": [
@@ -137,59 +153,59 @@
       },
       {
         "rank": 2,
-        "image": "n09193705_alp.JPEG",
-        "similarity": 0.2531,
-        "caption": "a mountain with a snow covered mountain in the background"
+        "image": "nature4.jpg",
+        "similarity": 0.2656,
+        "caption": "a mountain lake with a train passing by"
       },
       {
         "rank": 3,
-        "image": "n02129165_lion.JPEG",
-        "similarity": 0.2475,
-        "caption": "a lion walking across a dirt road"
+        "image": "nature3.jpg",
+        "similarity": 0.2638,
+        "caption": "a dirt road in the woods with sun shining through the trees"
       },
       {
         "rank": 4,
-        "image": "n09428293_seashore.JPEG",
-        "similarity": 0.2338,
-        "caption": "a body of water"
+        "image": "nature2.jpg",
+        "similarity": 0.2589,
+        "caption": "a mountain landscape with clouds and mountains in the background"
       },
       {
         "rank": 5,
-        "image": "n02099601_golden_retriever.JPEG",
-        "similarity": 0.2275,
-        "caption": "a dog running in the grass"
+        "image": "n09193705_alp.JPEG",
+        "similarity": 0.2531,
+        "caption": "a mountain with a snow covered mountain in the background"
       }
     ],
     "an animal in the wild": [
       {
         "rank": 1,
-        "image": "n02099601_golden_retriever.JPEG",
-        "similarity": 0.2646,
-        "caption": "a dog running in the grass"
-      },
-      {
-        "rank": 2,
         "image": "n02129165_lion.JPEG",
         "similarity": 0.2635,
         "caption": "a lion walking across a dirt road"
       },
       {
-        "rank": 3,
-        "image": "wild animal.jpg",
-        "similarity": 0.2603,
-        "caption": "a tiger laying down on the ground"
-      },
-      {
-        "rank": 4,
+        "rank": 2,
         "image": "n02391049_zebra.JPEG",
         "similarity": 0.2571,
         "caption": "a zebra standing in a rocky area"
       },
       {
+        "rank": 3,
+        "image": "wild6.jpg",
+        "similarity": 0.2517,
+        "caption": "a lion in the tall grass"
+      },
+      {
+        "rank": 4,
+        "image": "wild2.jpg",
+        "similarity": 0.2503,
+        "caption": "a tiger in the water"
+      },
+      {
         "rank": 5,
-        "image": "n02123045_tabby.JPEG",
-        "similarity": 0.2357,
-        "caption": "a cat with green eyes"
+        "image": "wild5.jpg",
+        "similarity": 0.2446,
+        "caption": "a lion laying on a rock"
       }
     ]
   }

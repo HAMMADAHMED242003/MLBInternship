@@ -1,7 +1,14 @@
 image,caption,embedding_dim
 cooking.jpg,a chef is holding a pan with meat,512
-n02099601_golden_retriever.JPEG,a dog running in the grass,512
-n02123045_tabby.JPEG,a cat with green eyes,512
+cooking1.jpg,a man in the kitchen preparing food,512
+cooking2.jpg,a man in an apron preparing food on a counter,512
+cooking3.jpg,a man cooking pasta in a kitchen,512
+cooking4.jpg,a woman cooking in a kitchen,512
+cooking5.jpg,a woman cooking in a kitchen,512
+food.jpg,a hamburger and french fries are on a tray,512
+food3.jpg,a hamburger and fries are on a table,512
+food4.jpg,a table with many different types of food,512
+food5.jpg,two bowls filled with chicken and vegetables,512
 n02129165_lion.JPEG,a lion walking across a dirt road,512
 n02391049_zebra.JPEG,a zebra standing in a rocky area,512
 n02504013_Indian_elephant.JPEG,the elephants are gray,512
@@ -23,5 +30,14 @@ n09256479_coral_reef.JPEG,a large group of fish swimming over a coral reef,512
 n09332890_lakeside.JPEG,a tree on the beach,512
 n09428293_seashore.JPEG,a body of water,512
 n09472597_volcano.JPEG,a pile of lava,512
-wild animal.jpg,a tiger laying down on the ground,512
+nature2.jpg,a mountain landscape with clouds and mountains in the background,512
+nature3.jpg,a dirt road in the woods with sun shining through the trees,512
+nature4.jpg,a mountain lake with a train passing by,512
+redcar1.jpg,a red car with a white background,512
+redcar2.jpg,ferrari car parked on the beach,512
+redcar3.jpg,a red sports car driving on a track,512
 wild.jpg,a mother elephant and her baby elephant,512
+wild2.jpg,a tiger in the water,512
+wild3.jpg,elephants in the wild,512
+wild5.jpg,a lion laying on a rock,512
+wild6.jpg,a lion in the tall grass,512

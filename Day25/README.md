@@ -1,10 +1,11 @@
+  [View live report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/HAMMADAHMED242003/MLBInternship/refs/heads/main/Day25/output/search_report.html)
 # Caption & Search Photo Gallery
 
 A CPU-friendly pipeline: BLIP captions every image, CLIP embeds every image,
 and you can search the gallery with a natural-language query.
 
 ## What's included
-- `images/` — 23 sample images (pulled from a public ImageNet sample-image
+- `images/` — sample images (pulled from a public ImageNet sample-image
   set), covering vehicles, food, nature/scenery, and animals so both direct
   and abstract queries have something reasonable to match against.
 - `caption_search_gallery.py` — the full pipeline (captioning, embeddings,
@@ -60,12 +61,3 @@ target without naming it directly:
 | "a peaceful scene" | abstract | lakeside / seashore / alp |
 | "an animal in the wild" | abstract | lion / zebra / elephant |
 
-**Fill this in after you run it:** for each abstract query, note the top-5
-images and similarity scores from `output/search_report.csv`, then judge:
-did CLIP capture the *intent* (e.g., did "a peaceful scene" actually surface
-the lakeside/seashore/alp images ahead of the sports car), or did it fall
-back to more literal/keyword-ish matches? CLIP's known behavior is that it
-generally does reasonably well on concrete-but-unnamed concepts ("something
-to eat" → food images) and noticeably worse on mood/atmosphere queries like
-"a peaceful scene", since that's more about composition and lighting than
-the object categories CLIP was trained to discriminate.

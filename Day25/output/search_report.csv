@@ -1,26 +1,26 @@
 query,rank,image,similarity,caption
 a red car,1,n03345487_fire_engine.JPEG,0.2797,an old red car parked under a wooden structure
 a red car,2,n03100240_convertible.JPEG,0.2774,a red car parked on the side of the road
-a red car,3,n04285008_sports_car.JPEG,0.2505,a red car with a white top and black wheels
-a red car,4,n04507155_umbrella.JPEG,0.2391,a person holding an umbrella
-a red car,5,n02930766_cab.JPEG,0.2303,a lot of yellow cabs
-someone cooking,1,cooking.jpg,0.2884,a chef is holding a pan with meat
-someone cooking,2,n07583066_guacamole.JPEG,0.2449,a yellow bowl
-someone cooking,3,n03400231_frying_pan.JPEG,0.2385,a pan of food
-someone cooking,4,n02099601_golden_retriever.JPEG,0.2124,a dog running in the grass
-someone cooking,5,n09472597_volcano.JPEG,0.2099,a pile of lava
+a red car,3,redcar2.jpg,0.272,ferrari car parked on the beach
+a red car,4,redcar3.jpg,0.2596,a red sports car driving on a track
+a red car,5,redcar1.jpg,0.2574,a red car with a white background
+someone cooking,1,cooking4.jpg,0.2888,a woman cooking in a kitchen
+someone cooking,2,cooking.jpg,0.2884,a chef is holding a pan with meat
+someone cooking,3,cooking3.jpg,0.2853,a man cooking pasta in a kitchen
+someone cooking,4,cooking2.jpg,0.2783,a man in an apron preparing food on a counter
+someone cooking,5,cooking1.jpg,0.2691,a man in the kitchen preparing food
 something to eat,1,n07873807_pizza.JPEG,0.2602,pizza box with pizza
-something to eat,2,n07697313_cheeseburger.JPEG,0.2522,a hamburger on a plate
-something to eat,3,wild animal.jpg,0.2507,a tiger laying down on the ground
+something to eat,2,food3.jpg,0.2542,a hamburger and fries are on a table
+something to eat,3,n07697313_cheeseburger.JPEG,0.2522,a hamburger on a plate
 something to eat,4,n07614500_ice_cream.JPEG,0.2495,a small bowl of ice cream
-something to eat,5,n03400231_frying_pan.JPEG,0.2431,a pan of food
+something to eat,5,food4.jpg,0.2484,a table with many different types of food
 a peaceful scene,1,n09332890_lakeside.JPEG,0.2685,a tree on the beach
-a peaceful scene,2,n09193705_alp.JPEG,0.2531,a mountain with a snow covered mountain in the background
-a peaceful scene,3,n02129165_lion.JPEG,0.2475,a lion walking across a dirt road
-a peaceful scene,4,n09428293_seashore.JPEG,0.2338,a body of water
-a peaceful scene,5,n02099601_golden_retriever.JPEG,0.2275,a dog running in the grass
-an animal in the wild,1,n02099601_golden_retriever.JPEG,0.2646,a dog running in the grass
-an animal in the wild,2,n02129165_lion.JPEG,0.2635,a lion walking across a dirt road
-an animal in the wild,3,wild animal.jpg,0.2603,a tiger laying down on the ground
-an animal in the wild,4,n02391049_zebra.JPEG,0.2571,a zebra standing in a rocky area
-an animal in the wild,5,n02123045_tabby.JPEG,0.2357,a cat with green eyes
+a peaceful scene,2,nature4.jpg,0.2656,a mountain lake with a train passing by
+a peaceful scene,3,nature3.jpg,0.2638,a dirt road in the woods with sun shining through the trees
+a peaceful scene,4,nature2.jpg,0.2589,a mountain landscape with clouds and mountains in the background
+a peaceful scene,5,n09193705_alp.JPEG,0.2531,a mountain with a snow covered mountain in the background
+an animal in the wild,1,n02129165_lion.JPEG,0.2635,a lion walking across a dirt road
+an animal in the wild,2,n02391049_zebra.JPEG,0.2571,a zebra standing in a rocky area
+an animal in the wild,3,wild6.jpg,0.2517,a lion in the tall grass
+an animal in the wild,4,wild2.jpg,0.2503,a tiger in the water
+an animal in the wild,5,wild5.jpg,0.2446,a lion laying on a rock
