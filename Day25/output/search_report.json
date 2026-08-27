@@ -1,0 +1,196 @@
+{
+  "images_dir": "images",
+  "num_images": 26,
+  "blip_model": "Salesforce/blip-image-captioning-base",
+  "clip_model": "openai/clip-vit-base-patch32",
+  "captions": {
+    "cooking.jpg": "a chef is holding a pan with meat",
+    "n02099601_golden_retriever.JPEG": "a dog running in the grass",
+    "n02123045_tabby.JPEG": "a cat with green eyes",
+    "n02129165_lion.JPEG": "a lion walking across a dirt road",
+    "n02391049_zebra.JPEG": "a zebra standing in a rocky area",
+    "n02504013_Indian_elephant.JPEG": "the elephants are gray",
+    "n02676566_acoustic_guitar.JPEG": "a man playing a guitar in the dark",
+    "n02930766_cab.JPEG": "a lot of yellow cabs",
+    "n03100240_convertible.JPEG": "a red car parked on the side of the road",
+    "n03297495_espresso_maker.JPEG": "the best espress coffee machine",
+    "n03345487_fire_engine.JPEG": "an old red car parked under a wooden structure",
+    "n03400231_frying_pan.JPEG": "a pan of food",
+    "n04285008_sports_car.JPEG": "a red car with a white top and black wheels",
+    "n04507155_umbrella.JPEG": "a person holding an umbrella",
+    "n07583066_guacamole.JPEG": "a yellow bowl",
+    "n07614500_ice_cream.JPEG": "a small bowl of ice cream",
+    "n07697313_cheeseburger.JPEG": "a hamburger on a plate",
+    "n07753592_banana.JPEG": "a banana tree",
+    "n07873807_pizza.JPEG": "pizza box with pizza",
+    "n09193705_alp.JPEG": "a mountain with a snow covered mountain in the background",
+    "n09256479_coral_reef.JPEG": "a large group of fish swimming over a coral reef",
+    "n09332890_lakeside.JPEG": "a tree on the beach",
+    "n09428293_seashore.JPEG": "a body of water",
+    "n09472597_volcano.JPEG": "a pile of lava",
+    "wild animal.jpg": "a tiger laying down on the ground",
+    "wild.jpg": "a mother elephant and her baby elephant"
+  },
+  "queries": {
+    "a red car": [
+      {
+        "rank": 1,
+        "image": "n03345487_fire_engine.JPEG",
+        "similarity": 0.2797,
+        "caption": "an old red car parked under a wooden structure"
+      },
+      {
+        "rank": 2,
+        "image": "n03100240_convertible.JPEG",
+        "similarity": 0.2774,
+        "caption": "a red car parked on the side of the road"
+      },
+      {
+        "rank": 3,
+        "image": "n04285008_sports_car.JPEG",
+        "similarity": 0.2505,
+        "caption": "a red car with a white top and black wheels"
+      },
+      {
+        "rank": 4,
+        "image": "n04507155_umbrella.JPEG",
+        "similarity": 0.2391,
+        "caption": "a person holding an umbrella"
+      },
+      {
+        "rank": 5,
+        "image": "n02930766_cab.JPEG",
+        "similarity": 0.2303,
+        "caption": "a lot of yellow cabs"
+      }
+    ],
+    "someone cooking": [
+      {
+        "rank": 1,
+        "image": "cooking.jpg",
+        "similarity": 0.2884,
+        "caption": "a chef is holding a pan with meat"
+      },
+      {
+        "rank": 2,
+        "image": "n07583066_guacamole.JPEG",
+        "similarity": 0.2449,
+        "caption": "a yellow bowl"
+      },
+      {
+        "rank": 3,
+        "image": "n03400231_frying_pan.JPEG",
+        "similarity": 0.2385,
+        "caption": "a pan of food"
+      },
+      {
+        "rank": 4,
+        "image": "n02099601_golden_retriever.JPEG",
+        "similarity": 0.2124,
+        "caption": "a dog running in the grass"
+      },
+      {
+        "rank": 5,
+        "image": "n09472597_volcano.JPEG",
+        "similarity": 0.2099,
+        "caption": "a pile of lava"
+      }
+    ],
+    "something to eat": [
+      {
+        "rank": 1,
+        "image": "n07873807_pizza.JPEG",
+        "similarity": 0.2602,
+        "caption": "pizza box with pizza"
+      },
+      {
+        "rank": 2,
+        "image": "n07697313_cheeseburger.JPEG",
+        "similarity": 0.2522,
+        "caption": "a hamburger on a plate"
+      },
+      {
+        "rank": 3,
+        "image": "wild animal.jpg",
+        "similarity": 0.2507,
+        "caption": "a tiger laying down on the ground"
+      },
+      {
+        "rank": 4,
+        "image": "n07614500_ice_cream.JPEG",
+        "similarity": 0.2495,
+        "caption": "a small bowl of ice cream"
+      },
+      {
+        "rank": 5,
+        "image": "n03400231_frying_pan.JPEG",
+        "similarity": 0.2431,
+        "caption": "a pan of food"
+      }
+    ],
+    "a peaceful scene": [
+      {
+        "rank": 1,
+        "image": "n09332890_lakeside.JPEG",
+        "similarity": 0.2685,
+        "caption": "a tree on the beach"
+      },
+      {
+        "rank": 2,
+        "image": "n09193705_alp.JPEG",
+        "similarity": 0.2531,
+        "caption": "a mountain with a snow covered mountain in the background"
+      },
+      {
+        "rank": 3,
+        "image": "n02129165_lion.JPEG",
+        "similarity": 0.2475,
+        "caption": "a lion walking across a dirt road"
+      },
+      {
+        "rank": 4,
+        "image": "n09428293_seashore.JPEG",
+        "similarity": 0.2338,
+        "caption": "a body of water"
+      },
+      {
+        "rank": 5,
+        "image": "n02099601_golden_retriever.JPEG",
+        "similarity": 0.2275,
+        "caption": "a dog running in the grass"
+      }
+    ],
+    "an animal in the wild": [
+      {
+        "rank": 1,
+        "image": "n02099601_golden_retriever.JPEG",
+        "similarity": 0.2646,
+        "caption": "a dog running in the grass"
+      },
+      {
+        "rank": 2,
+        "image": "n02129165_lion.JPEG",
+        "similarity": 0.2635,
+        "caption": "a lion walking across a dirt road"
+      },
+      {
+        "rank": 3,
+        "image": "wild animal.jpg",
+        "similarity": 0.2603,
+        "caption": "a tiger laying down on the ground"
+      },
+      {
+        "rank": 4,
+        "image": "n02391049_zebra.JPEG",
+        "similarity": 0.2571,
+        "caption": "a zebra standing in a rocky area"
+      },
+      {
+        "rank": 5,
+        "image": "n02123045_tabby.JPEG",
+        "similarity": 0.2357,
+        "caption": "a cat with green eyes"
+      }
+    ]
+  }
+}

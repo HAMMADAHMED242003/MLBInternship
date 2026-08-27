@@ -1,0 +1,26 @@
+query,rank,image,similarity,caption
+a red car,1,n03345487_fire_engine.JPEG,0.2797,an old red car parked under a wooden structure
+a red car,2,n03100240_convertible.JPEG,0.2774,a red car parked on the side of the road
+a red car,3,n04285008_sports_car.JPEG,0.2505,a red car with a white top and black wheels
+a red car,4,n04507155_umbrella.JPEG,0.2391,a person holding an umbrella
+a red car,5,n02930766_cab.JPEG,0.2303,a lot of yellow cabs
+someone cooking,1,cooking.jpg,0.2884,a chef is holding a pan with meat
+someone cooking,2,n07583066_guacamole.JPEG,0.2449,a yellow bowl
+someone cooking,3,n03400231_frying_pan.JPEG,0.2385,a pan of food
+someone cooking,4,n02099601_golden_retriever.JPEG,0.2124,a dog running in the grass
+someone cooking,5,n09472597_volcano.JPEG,0.2099,a pile of lava
+something to eat,1,n07873807_pizza.JPEG,0.2602,pizza box with pizza
+something to eat,2,n07697313_cheeseburger.JPEG,0.2522,a hamburger on a plate
+something to eat,3,wild animal.jpg,0.2507,a tiger laying down on the ground
+something to eat,4,n07614500_ice_cream.JPEG,0.2495,a small bowl of ice cream
+something to eat,5,n03400231_frying_pan.JPEG,0.2431,a pan of food
+a peaceful scene,1,n09332890_lakeside.JPEG,0.2685,a tree on the beach
+a peaceful scene,2,n09193705_alp.JPEG,0.2531,a mountain with a snow covered mountain in the background
+a peaceful scene,3,n02129165_lion.JPEG,0.2475,a lion walking across a dirt road
+a peaceful scene,4,n09428293_seashore.JPEG,0.2338,a body of water
+a peaceful scene,5,n02099601_golden_retriever.JPEG,0.2275,a dog running in the grass
+an animal in the wild,1,n02099601_golden_retriever.JPEG,0.2646,a dog running in the grass
+an animal in the wild,2,n02129165_lion.JPEG,0.2635,a lion walking across a dirt road
+an animal in the wild,3,wild animal.jpg,0.2603,a tiger laying down on the ground
+an animal in the wild,4,n02391049_zebra.JPEG,0.2571,a zebra standing in a rocky area
+an animal in the wild,5,n02123045_tabby.JPEG,0.2357,a cat with green eyes
